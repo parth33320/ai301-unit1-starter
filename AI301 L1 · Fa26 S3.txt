@@ -1,0 +1,721 @@
+And teach AI what to look for
+Pick Your
+First Issue
+AI 301 · UNIT 1
+Timing: 1 min. Unit 1 has a double meaning: you will learn to pick real open-source issues, and you will build the AI system that picks them. Both start today.
+
+AI 301 · WELCOME
+Welcome to Unit 1:
+Pick Your First Issue
+1
+Turn on your camera
+3
+Answer tonight's question in the chat
+TONIGHT'S QUESTION · IN THE CHAT
+What do you hope to gain from this class?
+
+2
+Rename yourself on Zoom
+🌟 Purpose: Settle the room and get everyone ready before the session starts.
+
+✅ What should I be doing?
+Before class, update the two sample slots for this unit: the title and the chat question. Keep the slide up while students arrive.
+
+🎙️ What should I be saying?
+Welcome! While we get started: camera on, and drop your answer to the question in the chat.
+
+🙌🏽 How should I engage students?
+Greet students by name as they arrive and read a few chat answers aloud.
+
+OUR COMMUNITY
+As a community, we will...
+✱  Be present, physically and mentally
+✱  Actively build an inclusive community and space
+✱  Practice curiosity and adopt a learning mindset
+✱  Ask for help when we need it
+✱  Keep our cameras on
+📋 Week 1 grace: not meeting these yet? Submit the readiness form — you can stay for lecture, but you'll need to leave before breakout rooms until you do. Won't affect your attendance.
+🌟 Purpose: Set the shared expectations for how the community works together.
+
+✅ What should I be doing?
+Walk the five norms briskly; they are the same every session.
+
+🎙️ What should I be saying?
+These are the agreements we all signed up for: present, inclusive, curious, asking for help, cameras on.
+
+🙌🏽 How should I engage students?
+Ask for a thumbs-up or a +1 in the chat once the norms are on screen.
+
+ASK ANYTIME
+Add your questions to the Q&A
+✱  Our Tech Fellow team adds answers throughout the lesson
+✱  Chat questions may be missed or redirected to the Q&A
+Q&A, on the right
+🌟 Purpose: Route questions where they will actually get answered.
+
+✅ What should I be doing?
+Point at the highlighted Q&A button and remind students the Tech Fellow team is watching it all session.
+
+🎙️ What should I be saying?
+Drop questions in the Zoom Q&A any time; chat questions can get missed.
+
+🙌🏽 How should I engage students?
+Seed the Q&A with a first question if it is empty.
+
+AI 301 · UNIT 1 · 120 MINUTES
+Today, block by block
+01
+Intro   why this beat, how the dual track works
+10 min
+02
+Lecture   issue selection, and you draft two checks live
+45 min
+03
+Break
+5 min
+04
+Activity   rubric calibration, in breakout rooms
+50 min
+05
+Wrap-up   what's due, where this is headed
+10 min
+Timing: 1 min. The night's shape, the same in every unit: intro, lecture, break, activity, wrap-up. Tonight the lecture feeds the activity directly: the two checks and the verdict rule you draft during lecture are exactly what phase 1 of the activity grades with, so nobody should skip the drafting moment.
+
+THE COURSE
+The Course at a Glance
+BEAT 1 · UNITS 1-4
+Lockstep sandbox
+check-ins · 25+25+25+50 pts
+BEAT 2 · UNITS 5-8
+One real contribution
+Assignment 5 · 250 pts
+BEAT 3 · UNIT 9
+Toolkit portfolio
+Assignment 6 · 125 pts
+unit 10: Demo Day, ungraded
+you are here
+Timing: 2 min. Orientation before the roadmap. Three beats. Beat 1, units 1 through 4: the lockstep sandbox, one graded check-in per unit (25, 25, 25, 50 points). Beat 2, units 5 through 8: one real contribution and one submission, Assignment 5, 250 points. Beat 3, unit 9: the toolkit portfolio, Assignment 6, 125 points; unit 10 is Demo Day, ungraded. Full rubrics are on the Grading Rubrics page under Course Info, and honest outcomes (an evidenced cannot-reproduce, a recorded deviation, a disclosed shortfall) earn full credit. Next, the roadmap: where this session sits in the course.
+
+Meet the Team!
+Should be about 15 minutes total
+
+8
+“Hard work beats talent when talent doesn’t work hard”
+- my high school soccer coach
+Ayush Parikh
+Software Engineer at Meta
+Previously at Microsoft
+Areas of Expertise: ML, Infra, Agents, Web
+
+Education:
+ Masters in ML from Georgia Tech
+ BSE in Computer Science from UPenn
+
+Meet Your Tech Fellows!
+Tech Fellows are CodePath alumni who will be responsible with providing you with assistance during breakout rooms!  Think of them as TAs & your near peers for this course!
+9
+Ahnaf Ahmed
+Andy Cordero
+Danny Abraham
+Dilan Caro Franco
+Jacob Cho
+Jesus Javier Ramirez
+Kaiya Roberts
+Keenan Kornegay
+Matthew Wyatt
+Monica Gnajewski
+Yamaan Nandolia
+Tech Fellow Manager
+Anthony Aleman
+Siyam Seid
+Purnima Vasistha
+Thomas Lavadinho
+Andres Garcia
+Tech Fellow Manager
+CJ is our TFM but Paul Leung will be the substitute for Week 1
+
+Quick Reminder: Class Policies and Structure 
+POLL: Did you attend orientation? Yes, live! Yes, by watching the recording and completing the quiz. Not yet.
+
+Attendance at the full two hours of all sessions is mandatory.
+All students are allowed up to 2 absences throughout the entire program.
+Students do not need to submit a request to use these absences.
+Missing a significant amount of session will count as an absence.  
+
+All assignments are due at 11:59 PM PST the Sunday before class (This is 2:59 AM Monday for the east coast) 
+You are allowed up to one 48-hour extension per assignment
+11
+Reminder:Classroom Policy
+Instructors: 
+Briefly review classroom policy, classroom policy can also be found in the overview 
+
+Class Structure
+Your class will follow this general structure: Up to 1 hour of Direct Instruction and 1 hour for Breakout Rooms, with a short break in between
+
+
+Direct Instruction
+Instructors will present slides which can be found in the course portal
+Students are expected to attend and be present
+TFs will be present and support students by answering questions in the chat or Slack channel
+Breakout Rooms
+Students will join their pods in their breakout rooms
+Students work together to complete assignments, activities, projects, or labs
+TFs will join breakout rooms and support students in their pods
+If you’ve taken other CodePath classes before, this likely sounds quite familiar to you!
+
+THE ROADMAP · SANDBOX BEAT · UNITS 1-4
+Where this session sits
+UNIT 1
+Selection
+issue-select
+UNIT 2
+Reproduction
+repro-check
+UNIT 3
+Plan and build
+plan-check
+UNIT 4
+Pull request
+pr-precheck
+Sandbox
+units 1-4
+Real repos
+units 5-8
+Portfolio
+units 9-10
+Timing: 2 min. The agenda was session-scale; this is course-scale. Four lockstep sandbox sessions, one workflow phase and one tool each; green marks tonight (Selection, and the issue-select skill). Each unit pairs a phase of the contribution workflow with an AI tool you build or drive for that phase; the weekly submission is the accountability, and the scaffolding fades until you are working a real repo. The track underneath is the whole course: sandbox now, real repos in units 5-8, portfolio to close. Then the repo: where everything you build this course will live.
+
+THE COURSE
+Your Course Repo
+Created once, from the course template: public, named ai301-coursework
+github.com/codepath/ai301-coursework-template
+All four folders are there from day one
+The same repo link is your submission, every unit, on the Check-In tab
+One repo, created today, submitted every time: everything you build in this course lives in it.
+ai301-coursework/
+  tools/
+    issue-select/
+  beat-1-sandbox/
+    unit-1/
+    unit-2/ · unit-3/ · unit-4/
+  beat-2-contribution/
+  beat-3-portfolio/
+this unit's uploads
+go here
+Timing: 2 min. The repo map, once, so every later "upload it to tools/" lands. Create it from the course template with GitHub's Use this template button: public, named ai301-coursework; no git commands needed. Uploads use the web flow (Add file, then Upload files) inside the right folder; this unit those folders are tools/issue-select/ and beat-1-sandbox/unit-1/. The same link is what you submit every time on the Check-In tab, and the beat folders fill in as the beats arrive.
+
+The Finish Line
+Sandbox contribution
+a rehearsal repo, units 1-4
+THE BAR
+The bar: pass all four unit checks and submit your PR in the sandbox.
+Real repos
+a supervised first PR
+clear the bar early, progress early
+THE ROADMAP
+⏰ 2 mins. The finish line for Beat 1: pass all four unit checks (unit 1's check is the 18-of-20 eval) and land your PR in the sandbox repo. Clear the bar early and you are released into the real-repo track early.
+
+This Week You Ship
+A working issue-selection skill.
+
+You write its brain: the rubric.
+tools/issue-select/
+  SKILL.md
+ 
+  scope.md
+  references/
+    evidence-guide.md
+  rubric.md
+you write this
+THE DELIVERABLE
+⏰ 2 mins. One deliverable. The plumbing ships complete: evidence gathering, grading flow, JSON output. The rubric file ships empty because judgment is the part being graded. Say it twice: the plumbing is free, the judgment is yours.
+
+LECTURE · PART 1 OF 4
+OSS workflow
+How a change gets in, and who decides.
+Timing: breather. Lecture part 1 of 4: the workflow. How a change gets in, and who decides. Reset the room, then move.
+
+The Open-Source Workflow
+Most first contributions die at phase 1: an issue nobody was ever going to merge.
+THE WORKFLOW
+1
+Pick the issue
+this week
+2
+Reproduce it
+unit 2
+3
+Fix it
+unit 3
+4
+Submit and land it
+unit 4
+Timing: 2 min. Four phases: find, reproduce, fix, land. Units 2 through 4 take the later phases. This week is phase 1 because it is where most first contributions actually die: at the pick, before any code review happens.
+
+How a Change Gets In
+THE WORKFLOW
+YOU · THE CONTRIBUTOR
+THEM · THE MAINTAINER
+make a branch
+commit the fix
+open a pull request
+review
+merge
+the handoff
+You never write to their repo: you propose the change, they decide to merge it.
+Timing: 2 min. Vocabulary check before anything else. The people with merge rights are maintainers; you are a contributor, and you cannot write to their repo. Your work travels as a pull request: your proposed change, sitting in their queue until a maintainer reviews it and merges it. Point at the color change on the slide: everything after the handoff belongs to someone else, and every check this week exists because of that.
+
+Reading a Repo
+THE WORKFLOW
+the-repo/
+  README.md
+  LICENSE
+  src/
+  tests/
+  CONTRIBUTING.md
+the house rules
+what the project is and how to use it
+how they want changes: setup, code style, the PR checklist
+the terms your fix ships under
+the code, and the tests that prove changes work
+Issues tab: the to-do list. Pull requests tab: the queue of proposals.
+Timing: 2 min. A quick map of any repo you open. README says what the project is. CONTRIBUTING.md is the maintainers telling you exactly how they want changes: setup, code style, how to open your PR; reading it first is the difference between a merged PR and a closed one. LICENSE is the terms your fix ships under. The code lives in src, and tests are how you prove a change works. Issues and Pull requests are the to-do list and the queue; slide after next we go digging in both for evidence.
+
+Would you take this one?
+A LIVE ISSUE
+Timing: 3 min. Cold open, no guidance: read it for 60 seconds, then hands up, would you take this as your first contribution? Count the hands. Do not reveal anything yet; the next slide does that.
+
+What the Page Didn't Tell You
+Latest release: Nov 2024. Last human commit: Dec 2024.
+Five open PRs already linked to this issue. None reviewed.
+“Happy to open a PR”: no reply in 3 weeks. Sampled threads: no maintainer reply since 2023.
+The page shows friendliness. The evidence shows a dead repo.
+THE REVEAL
+Timing: 3 min. The reveal: httpie ships a beautiful issue tracker on a repo whose last human commit was December 2024. Five contributors already raced PRs into the void. Surface signals said yes; two minutes of evidence said no. The whole week is about making that two minutes systematic.
+
+LECTURE · PART 2 OF 4
+The rubric
+Your judgment, written down before you grade.
+Timing: breather. Lecture part 2 of 4: the rubric. Your judgment, written down before you grade. Reset the room, then move.
+
+Your judgment, written down before you grade.
+
+Named criteria. A pass line for each.
+What's a Rubric?
+THE RUBRIC
+If two graders get different answers, the rubric isn't finished yet.
+A rubric for a good roommate?
+1.
+2.
+3.
+4.
+now grade these three
+Monica Geller
+SpongeBob
+Shrek
+CHAT VOTE
+call out 3 or 4 criteria · we grade all three together
+Timing: 3 min. Live mini-exercise; keep it fast and loud. Ask the room for 3 or 4 criteria for a good roommate and write them on the blanks verbatim, vague wording and all. Then grade Monica, SpongeBob, and Shrek against the criteria only. Monica sails, Shrek fails, and SpongeBob starts arguments: friendly, but loud at 3am, and 'is clean' splits the room. When an argument breaks out, name it: the criterion was too vague to grade, and that is exactly what the next slides fix. Land the definition before moving on: a rubric is judgment written down before you grade, so any grader reaches the same answer.
+
+Four Families of Checks
+1
+Maintainer alive
+Someone still merges and replies.
+2
+Repo in use
+Releases ship; people depend on it.
+3
+Scope fits you
+One bounded change, spec included.
+4
+Unclaimed
+No assignee, no open PR, no fresh claim.
+THE RUBRIC
+⏰ 2 mins. Every question you could ask about a candidate issue lands in one of four families: is anyone home, does the project still matter, can you finish the change, and is someone already on it. The master rubric's checks are these four families made testable. One preview of where this is headed: the unclaimed family exists for strangers you cannot coordinate with. On the course Path Review repo your classmates are not strangers, so their claims do not block you: the course is the coordination channel, and credit attaches to the PR you open, not to the merge.
+
+Where the Evidence Lives
+1
+2
+3
+4
+1
+Commit stream: who merged last, and when
+2
+Releases: when it last shipped
+3
+Issue thread: one bounded change, spec included?
+4
+Linked PRs and assignees: who is already on it
+THE EVIDENCE
+Timing: 2 min. All of it is public archaeology, no permission needed. The numbers match the four families: the commit stream tells you if a maintainer is alive, the releases panel tells you the repo is in use, the issue thread tells you the scope (and, bonus, how fast maintainers reply), and the development sidebar shows linked PRs and assignees. The evidence guide in the skill package maps every check to one of these surfaces.
+
+The Label Lies Sometimes
+good first issue
+Add a --quiet flag to the CLI
+opened 2 weeks ago
+maintainer replied in 2 days
+no assignee, no linked PR
+Evidence agrees. Take it.
+good first issue
+Fix broken link in README
+opened in 2023
+“I’ll take this!”, also 2023
+linked PR closed, unmerged
+Label says yes. Evidence says no.
+Sites like goodfirstissue.dev just list labeled issues. Checking the repo is alive and unclaimed is your job.
+THE EVIDENCE
+Timing: 2 min. The good-first-issue label is a friendliness claim, not a freshness claim. Nobody unlabels an issue when the repo goes quiet or someone claims it in a comment. Aggregator sites inherit the same blind spot, so liveness and claims are always yours to verify.
+
+From Judgment to Rubric
+“the repo feels dead”
+“too big for a first PR”
+“is someone already on it?”
+“would anyone merge this?”
+make it testable
+check:
+maintainer-alive
+evidence:
+last 5 commits
+pass:
+2 in the last 90 days
+weight:
+required
+THE RUBRIC
+Timing: 3 min. The move of the week: take the instinct and rewrite it as a check with named evidence, a pass condition someone could argue with, and a weight. Once it is a row, two people can disagree about it productively, and a machine can execute it.
+
+Anatomy of a Check
+check:
+responds-to-issues
+evidence:
+reply times in last 5 issues
+pass:
+a reply within 30 days
+weight:
+preferred
+name it
+where you look
+a line you can test
+how much it matters
+THE RUBRIC
+every number here is a first guess; you may need to calibrate
+Timing: 2 min. Dissect one row: a name, the evidence you will gather, a pass condition you can test, a weight. Weight in one line: required rejects, preferred ranks; job postings' required vs preferred qualifications is the anchor. Say the caption out loud: every threshold on screen is a first guess, and calibration plus the eval loop exist to move it.
+
+From Checks to a Verdict
+THE RUBRIC
+maintainer-alive
+required
+P
+unclaimed
+required
+?
+scope-fits
+preferred
+F
+apply your verdict rule
+REJECT
+the rule: accept only if every required check passes
+Your verdict rule is one sentence that turns your grades column (P/F/?) into a single accept or reject, including what a ? counts as.
+DRAFT NOW
+two checks and a verdict rule · 5 minutes
+Timing: 2 min. Checks give grades; the verdict rule turns them into one verdict. Walk the example row by row: the required ? is the decider, because unclear counts as a fail, and the preferred F changes nothing, because preferred never gates. THEN THE DRAFTING MOMENT: everyone writes two checks, one required and one preferred, AND their verdict rule, right now, camera-off silence is fine. This is load-bearing: phase 1 of the activity grades with these checks and combines them with this rule. Do not skip it; if running late, cut the terminal walkthrough instead. The two companion rules, spoken while walking the example, live off-slide now: a ? on a required check counts as a fail, and preferred never gates the verdict, it only ranks the issues you accept.
+
+LECTURE · PART 3 OF 4
+Your skill
+Your rubric becomes the brain of a tool.
+Timing: breather. Lecture part 3 of 4: your skill. Your rubric becomes the brain of a working tool. Reset the room, then move.
+
+What's a Claude Code Skill?
+YOUR SKILL
+A folder of instructions, invoked by name.
+
+Plain markdown. No training, no code.
+Edit the file and the behavior changes. That's why your rubric can be its brain.
+$ claude “issue-select: …”
+Claude reads skill/SKILL.md
+follows it, using references/
+the task, done your way
+The skill is just written instructions. Claude reads them and does the work.
+⏰ 2 mins. Define the thing they are about to finish building. A Claude Code skill is a folder of markdown instructions that Claude follows when you invoke it by name: SKILL.md is the procedure, references/ holds the docs it can consult on the way. There is no training run and no code change: edit the file and the behavior changes the next run. That editability is the whole design of this week: it is why an empty rubric.md can be the brain you write. Next slide: what this particular skill's instructions do.
+
+Your AI System
+~/.claude/skills/issue-select/
+SKILL.md
+references/
+evidence-guide.md
+rubric.md
+you write this
+issue URL
+gather evidence
+grade each check in rubric.md
+verdict, with receipts
+YOUR SKILL
+claude finds any skill under ~/.claude/skills/; 
+the copy you submit goes to your course repo's tools/ folder.
+⏰ 2 mins. The system's shape: input an issue URL in live mode or a snapshot bundle in eval mode, gather evidence, grade check by check, emit a verdict with the evidence that decided each check. The skill reads whatever checks rubric.md defines. Your rubric is the only moving part. Where it lives: the installed copy sits at ~/.claude/skills/issue-select/, and claude finds any skill under ~/.claude/skills/ from whatever directory you run it in. The copy you submit is uploaded to your course repo's tools/ folder; keep editing the installed copy and upload its current files when you submit.
+
+The Skill Runs
+$ claude “issue-select: grade httpie/cli issue 1898”
+
+  commits-alive       fail   last human commit 2024-12-17
+  responds-to-issues  fail   no maintainer reply since 2023
+  shipped-recently    fail   3.2.4 shipped 2024-11-01
+  unclaimed           fail   5 linked PRs, none merged
+
+  verdict: reject
+
+  (structured JSON follows: the eval, coming up, reads that)
+YOUR SKILL
+Run it on 2-3 open issues from PathReview, pick one that it accepts, 
+and record it in beat-1-sandbox/unit-1/selection.md
+Timing: 1 min. Running it feels like this: one command, per-check grades, each with the fact that decided it, then the verdict. This is the trap issue from the cold open; with a decent rubric the skill catches in seconds what the room needed a reveal for. The JSON tail is what the eval harness parses. This is also where the chosen issue comes from: run live mode on the Path Review repo's open issues (linked in scope.md), pick the accepted one that fits you, and record its link and verdict in beat-1-sandbox/unit-1/selection.md.
+
+How AI Gets Graded
+model output
+judge model
+written rubric
+score + reasons
+Production model evals run this loop. Your skill does the judging; your rubric sets the standard.
+LLM-AS-JUDGE
+⏰ 2 mins. Name the pattern: LLM-as-judge, a model plus a written rubric grading another system's output. It is how production model evals run at AI labs. What students ship this week is the industry artifact itself, no classroom imitation of AI work.
+
+LECTURE · PART 4 OF 4
+The eval
+The same bar, every unit: 18 of 20.
+Timing: breather. Lecture part 4 of 4: the eval. The same bar, every unit: 18 of 20. Reset the room, then move.
+
+YOUR CREDIT
+What a run costs
+UNIT 1 RECEIPT
+skill runs, 3 issues
+$0.60
+full eval run, 20 issues
+~$4
+--only re-grades, x 10
+~$2
+confirming full run
+~$4
+unit 1, done well
+~$10
+YOUR MONTHLY CREDIT
+$50
+a whole unit is about a fifth of one month
+$ python3 run_eval.py --rubric rubric.md
+$ python3 run_eval.py --only issue-07,issue-12
+# full run first · then re-grade only disagreements
+Weighing cost against one more run is the job. Your $50 is where you practice it.
+
+THE EVAL
+The bar is 18 of 20
+pass line · 18
+16 loud calls
+4 arguable scope calls
+18 means you missed nothing loud and split on at most two arguable ones
+and your tool gets at least one issue right in every category:
+maintainer alive
+repo in use
+scope fits
+unclaimed
+$0.20 to re-run one issue · about $4 a full run · unlimited retries
+policy allows AI
+Timing: 3 min. Your skill and the master skill grade the same 20 snapshot issues; the score is verdict agreement. 16 carry loud signals a reasonable rubric never misses; 4 are genuinely arguable scope calls. 18 of 20 is the bar: miss nothing loud, split on at most two arguable ones (the two buttermilk cells beyond the line show exactly that example). The category floor keeps a rubric from ignoring a whole category; the fifth pill is the one-item contribution-policy category, where only an outright ban rejects. The harness is self-serve and cheap, so revise and rerun freely before the deadline; the same bar returns every unit. Bridge to the next slide: the eval scores your agreement with the master rubric; the activity practices the same agreement between you and a teammate.
+
+Calibration Is a Job Skill
+the same issue
+accept
+reject
+you
+a teammate
+When you and a teammate disagree,
+rewrite the check until you both agree.
+before calibrating
+after calibrating
+share of issues graders agree on
+Data-annotation teams adjudicate disagreements exactly like this before anyone grades for real.
+INTER-RATER RELIABILITY
+⏰ 2 mins. Two competent graders reading the same issue can split. The fix is arguing the checks until the rubric decides, rather than averaging, which is inter-rater calibration. Annotation teams and eval teams do this before any grading counts. The activity you are about to run is that practice.
+
+BREAK · 5 MINUTES
+Take five
+Stretch, refill your water, rest your eyes.
+🌟 Purpose: Give the room a real reset mid-session.
+
+✅ What should I be doing?
+Post the return time in the chat and start a timer. Update the eyebrow if this unit's agenda gives the break a different length.
+
+🎙️ What should I be saying?
+We are back at [time]. Step away from the screen if you can.
+
+🙌🏽 How should I engage students?
+Be back a little early and greet people as they return.
+
+DAY ONE
+ARRIVALS
+Something's waiting for you when you get back.
+At orientation you checked in and got your boarding pass. Today you land. Head into your breakout room and get to know your crew — the moment everyone's back, we open this together.
+There's one prompt in your lab asking you to write something down. Do it — that answer is what unlocks this. Have your CodePath Member ID handy too.
+DAY ONE
+✈
+AI 301
+STATUS
+ARRIVING
+LOCKED
+LOCKED UNTIL WE'RE ALL BACK
+DAY ONE ARRIVALS · FALL 2026
+Show BEFORE breakouts. Do not say what the surprise is. Point them at the one prompt in their lab that asks them to write something down — that answer is the key. Also tell them to have their CodePath Member ID handy (top right of the Hub). Do not give out the link yet.
+41
+
+THE ACTIVITY · 50 MINUTES · BREAKOUT ROOMS
+Activity: Rubric calibration
+Two worksheets. Links to both are in the instructions on the Activity tab in the portal.
+The solo worksheet
+blue · one copy per person
+✱  make your own copy before rooms open
+✱  phase 1 · grade the four issues
+✱  phase 3 · revision marks
+The group worksheet
+green · one copy per group
+✱  one member copies it · link goes in the room
+✱  phase 2 · disagreement log + synthesis
+✱  phase 4 · debrief
+Keep collaborating through all four phases! These worksheets help you complete your homework.
+timeboxes are printed on the worksheet · TFs are in the rooms
+⏰ 3 mins, and the slide stays up while rooms form. The worksheet links live in the instructions on the Activity tab in the portal: the solo worksheet (blue) and the group worksheet (green). Each link opens Google's Make-a-copy page, so nobody can type into a template. Everyone makes their own solo copy before rooms open. In each breakout room one member makes the group copy, renames it with the group number, and pastes its link in the room. Phases 1 and 3 happen in your solo copy; phases 2 and 4 happen in the group copy. Stress the last line: solo only sets which doc the marks land in, so keep collaborating through all four phases, and the filled worksheets are what the homework (the rubric revisions and the eval run) builds on. Timeboxes are printed on the worksheet.
+
+BEFORE YOU GO
+One thing, due Sunday
+25 PTS
+full rubric on the Grading Rubrics page
+unlimited retries before the deadline 
+Your repo link · all you submit
+tools/issue-select/ with your finished rubric.md
+beat-1-sandbox/unit-1/selection.md: chosen issue and eval iterations write-up
+beat-1-sandbox/unit-1/eval-run.txt: one complete run, from --save-run
+Timing: 2 min. One submission: the course repo link, on the Check-In tab, the same repo every unit. Graders open tools/issue-select/, beat-1-sandbox/unit-1/selection.md, and beat-1-sandbox/unit-1/eval-run.txt, nothing else. eval-run.txt is written by the harness with --save-run; a partial --limit or --only run refuses to write it, and it is never hand-edited. The agreement number sets no points. The split: 8 for repo, folder, and files; 3 for the committed run; 7 for the Your eval iterations write-up; 7 for the chosen issue. 25 points, due Sunday; honest outcomes earn full credit.
+
+UNIT 1 · NEXT UNIT
+Reproduce it
+Bring your chosen issue. A classmate will run your rubric, exactly as written.
+THIS WEEK
+finish the rubric · run the eval · submit on the portal
+Timing: 1 min. The send-off. Next unit is Reproduce it: they bring the chosen issue, and the operator swap begins (a classmate runs their rubric exactly as written, so it has to survive a stranger). Tonight: finish the rubric revision, run the eval, submit on the portal before Sunday.
+
+DAY ONE
+UNLOCKED
+Your Arrival Pass is ready.
+1
+Open the link in chat — https://codepath.github.io/curriculum/day-one/?k=ai301-883288
+2
+Enter the answer from your lab, plus your Member ID
+3
+Build your pass and download your Zoom background
+About two minutes. Put it on for our sessions — your name, your pronouns, your stamp, so nobody has to ask who you are. Use it for your next sessions! 
+YOUR ZOOM BACKGROUND, STAMPED
+DAY ONE ARRIVALS · FALL 2026
+Show AFTER breakouts. Drop the link in chat and read the three steps. They'll need the answer from their lab and their Member ID. Takes about two minutes end to end; they finish with a downloaded Zoom background.
+45
+
+ONE GOOD THING
+Let's celebrate your wins
+Reflect on today's session. Maybe you got a question answered, overcame a coding challenge, or learned how to do something completely new.
+IN THE CHAT
+share one good thing you learned or experienced today
+🌟 Purpose: End the session on a positive note.
+
+✅ What should I be doing?
+Prompt students to share their reflections in the chat.
+
+🎙️ What should I be saying?
+Let's celebrate your wins. Share one good thing you learned or accomplished today!
+
+🙌🏽 How should I engage students?
+Read a few responses aloud and celebrate with enthusiasm.
+
+SESSION SURVEY · 3 MINUTES
+Tell us how tonight went
+Your feedback makes the next session better, and we read all of it.
+Take the survey · link in the chat
+🌟 Purpose: Gather feedback to improve future sessions.
+
+✅ What should I be doing?
+Share the survey link in the chat and emphasize its importance.
+
+🎙️ What should I be saying?
+Your feedback helps us make these sessions even better. Please take a moment to complete the survey.
+
+🙌🏽 How should I engage students?
+Thank students for their input and explain how feedback has been used in the past.
+
+Need Help Outside of Session?
+Fall 2026
+Two ways to get unstuck with a TF — one runs all term, one only in the first two weeks.
+STUDY HALLS
+Every week · Wks 2–10
+Same day and time every week, starting Mon, Sep 21.
+Mondays
+3–4 PM PT  /  6–7 PM ET
+Fridays
+4–5 PM PT  /  7–8 PM ET
+Sundays
+12–1 PM PT  /  3–4 PM ET
+Ask TFs specific questions · Co-work with classmates · Get concepts clarified
+FIX-IT GARAGES
+First 2 weeks only
+Drop in for hands-on help getting set up. Same times both weeks.
+Tuesdays
+7–8 PM PT  /  10–11 PM ET
+Sep 15 & 22
+Wednesdays
+2–3 PM PT  /  5–6 PM ET
+Sep 16 & 23
+Thursdays
+7–8 PM PT  /  10–11 PM ET
+Sep 17 & 24
+Week 1: Sep 15–17   Week 2: Sep 22–24
+Zoom links are in your Course Portal (Schedule tab).
+48
+
+Course Change Requests
+Due Oct 4
+1.
+Level Down  Same course stream — form only, through Week 3 close
+2.
+Level Up  Same course stream — form + course benchmark, through Week 3 close
+3.
+Add a Lower Level  Same course stream — form + seat availability, through Week 3 close
+✱
+One-time & permanent — you may lose access to your old course after switching
+✱
+Attendance & engagement records carry over and don't reset
+✱
+Level changes are processed on Mondays through Week 4 — submit early to signal interest
+📝
+SUBMIT YOUR REQUEST
+Complete the Level Change Request Form by the deadline. 
+📄
+FULL POLICY DETAILS
+Read the full Fa26 Course Level Switches doc for eligibility & catch-up expectations.
+1
+49
+
+BEFORE YOU GO
+Final reminders
+✱  Finish the rubric · run the eval · submit on the portal
+✱  Next Unit: Reproduce it
+✱  Git / GitHub Help!
+Shorter: https://youtu.be/y-an0v208A0?si=HzEwWE-RMpi5mRG0 
+Longer: https://youtu.be/mAFoROnOfHs?si=4dBf0NALgd4eNsfI 
+My AI 201 Lesson on Git and Collaboration
+
+
+
+
+🌟 Purpose: Reinforce key tasks and deadlines.
+
+✅ What should I be doing?
+Summarize next steps and encourage continued engagement. Swap the sample bullets for this course's real reminders, then delete the buttermilk box.
+
+🎙️ What should I be saying?
+Don't forget to complete the problem sets and take the HackerRank assessment by Sunday!
+
+🙌🏽 How should I engage students?
+Encourage students to ask any lingering questions before signing off.
