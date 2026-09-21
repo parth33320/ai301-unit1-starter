@@ -1,42 +1,24 @@
 # Rubric: is this a good first issue?
 
 <!--
-THIS IS THE PART YOU WRITE. The skill in SKILL.md executes whatever checks
-you define here. It ships empty on purpose: the judgment is your work.
-
 A filled rubric must contain:
-
-1. At least one row in the checks table. Each row needs all four columns:
-   - Check: a short name (used in the output JSON).
-   - Evidence: exactly what to look at, and where. Name the source
-     (repo-facts block, issue body, comment thread, or the locations in
-     references/evidence-guide.md). "The repo" is not a source; "the last
-     5 default-branch commit dates" is.
-   - Pass condition: a condition someone else could apply and get your
-     answer. Prefer thresholds with numbers ("a maintainer commented
-     within 30 days") over adjectives ("maintainer is responsive").
-   - Weight: `required` (a fail here rejects the issue) or `preferred`
-     (never changes the verdict; a nice-to-have that helps rank the
-     issues you accept).
-
-2. A verdict rule below the table: how the check grades combine into
-   accept or reject, including how `unclear` is treated. The verdict
-   space is binary. If you write no rule for `unclear`, the skill treats
-   it as fail.
-
-Cover what actually kills first contributions. The lecture named four
-families: the maintainer is alive, the repo is in use, the scope fits a
-newcomer, and nobody else is already on it. A rubric that ignores a family
-will fail eval issues designed around that family.
+1. At least one row in the checks table (Check, Evidence, Pass condition, Weight).
+2. A verdict rule below the table specifying how grades combine and how unclear is treated.
 -->
 
 ## Checks
 
 | Check | Evidence | Pass condition | Weight |
 |---|---|---|---|
-|  |  |  |  |
+| maintainer-alive | Repo-facts block: last default-branch commit date and last maintainer comment timestamp | The last commit on the default branch or a maintainer comment occurred within the last 60 days. | required |
+| repo-active | Repo-facts block: open pull requests count, closed issues count, and recent commit velocity | The repository has at least 10 closed issues or PRs in the last 90 days, indicating active project usage. | required |
+| newcomer-scope | Issue body and initial description text | The issue description is self-contained, specifies clear files/paths or reproduction steps, and does not require deep architecture redesign. | required |
+| clean-assignment | Issue comment thread and assignee metadata fields | The issue has no active assignees and no comments from external contributors claiming or working on it within the last 14 days. | required |
+| good-first-label | Issue labels list in the issue metadata | The issue carries a beginner-friendly tag such as "good first issue", "help wanted", or equivalent documentation/cleanup focus. | preferred |
 
 ## Verdict rule
+
+Accept if and only if all `required` checks pass (evaluating to pass). Any `unclear` result on a `required` check counts as a fail. `preferred` checks never change the binary verdict; they are used solely to rank accepted issues by fit order.
 
 <!-- State how the grades above combine into accept or reject, and how
 unclear is treated. Example shape (write your own): "accept if every
