@@ -36,27 +36,27 @@ To ensure the rubric is capable of accurately discriminating between viable firs
 
 ## 2. Issue Analysis (Path Review Repo)
 
-We evaluated candidate open issues from the course repository tracker (`codepath/pathreview-ai301-fa26-s3`):
+We evaluated candidate open live Tier-3 issues from the course repository tracker (`codepath/pathreview-ai301-fa26-s3`):
 
 ### Candidate Issues Analyzed
 
-1. **`issue-07` — Add automated test coverage for user authentication helper functions**
+1. **`issue-14` — Implement an offline eval runner that measures review quality across a benchmark portfolio set**
+   - *Source:* `codepath/pathreview-ai301-fa26-s3#14`
+   - *Category / Tier:* Tier-3 (Offline eval runner implementation)
+   - *Verdict:* **ACCEPT**
+   - *Reasoning:* The issue provides a clear, bounded task targeting `scripts/run_evals.py` and `rag/evaluator/eval_suite.py` to evaluate benchmark profiles and output `eval_results.json`. The repository is active (recent default branch commits within 90 days), there are no active assignees or open blocking PRs, and the repository's contribution policy permits AI-assisted development.
+
+2. **`issue-07` — Vector store returns stale embeddings after a document is re-ingested**
    - *Source:* `codepath/pathreview-ai301-fa26-s3#7`
-   - *Category / Tier:* Tier-3 (Well-bounded unit test task)
+   - *Category / Tier:* Tier-3 (RAG vector store stale embedding bug fix)
    - *Verdict:* **ACCEPT**
-   - *Reasoning:* The issue provides a concise, self-contained description requesting unit test coverage for existing auth utility functions in `src/utils/auth.py`. The repository is active, maintainers respond promptly, there are no assigned external contributors or active blocking PRs, and the contribution policy permits AI-assisted development.
+   - *Reasoning:* A well-bounded bug fix targeting `rag/retriever/vector_store.py` and `ingestion/pipeline.py` to clean up old document embeddings upon re-ingestion. All required rubric checks (`maintainer-alive`, `repo-active`, `newcomer-scope`, `clean-assignment`, `policy-check`) evaluate to pass.
 
-2. **`issue-03` — Refactor global database ORM models and migration architecture**
-   - *Source:* `codepath/pathreview-ai301-fa26-s3#3`
-   - *Category / Tier:* Tier-3 (Complex architectural scope)
-   - *Verdict:* **REJECT**
-   - *Reasoning:* Fails `newcomer-scope`. The issue requests a multi-module database ORM redesign without specific reproduction steps or bounded file targets, introducing high risk of breaking downstream dependencies.
-
-3. **`issue-12` — Fix broken link in README documentation**
-   - *Source:* `codepath/pathreview-ai301-fa26-s3#12`
-   - *Category / Tier:* Tier-3 (Documentation fix)
+3. **`issue-04` — Add support for parsing GitHub Actions workflow files to detect CI/CD skills**
+   - *Source:* `codepath/pathreview-ai301-fa26-s3#4`
+   - *Category / Tier:* Tier-3 (Ingestion parser feature)
    - *Verdict:* **ACCEPT**
-   - *Reasoning:* Fully bounded documentation update with explicit file location and no architectural complexity.
+   - *Reasoning:* A well-scoped feature addition requesting a YAML workflow parser in `ingestion/parsers/workflow_parser.py` and integration into `skill_extractor.py`. Clear requirements and reproduction steps without architectural ambiguity. All required rubric checks pass.
 
 ---
 
@@ -108,38 +108,38 @@ Designing a first-issue selection rubric requires balancing strict risk mitigati
 ## 5. Selection Rationale & Verdict Output
 
 ### Selected Issue
-**Selected Issue ID:** `issue-07` (`codepath/pathreview-ai301-fa26-s3#7`)
-**Title:** Add automated test coverage for user authentication helper functions
+**Selected Issue ID:** `issue-14` (`codepath/pathreview-ai301-fa26-s3#14`)
+**Title:** Implement an offline eval runner that measures review quality across a benchmark portfolio set
 **Verdict:** `accept`
 
 ### Selection Rationale
-`issue-07` is an ideal first contribution for AI301 Unit 1. The issue task is tightly bounded to `src/utils/auth.py`, requiring standard unit test cases for helper functions without modifying core system architecture. The repository is actively maintained, the contribution policy explicitly permits AI-assisted workflows, and all required checks evaluate to `pass`.
+`issue-14` is selected as our official choice for Unit 2. The task is tightly bounded to `scripts/run_evals.py` and `rag/evaluator/eval_suite.py`, requiring implementation of the evaluation runner to output `eval_results.json` using sample benchmark profile fixtures. The repository is actively maintained, the contribution policy explicitly permits AI-assisted development, there are no active assignees, and all required rubric checks evaluate to `pass`.
 
 ### Formatted Verdict Output Block
 
 ```json
 {
-  "item": "https://github.com/codepath/pathreview-ai301-fa26-s3/issues/7",
+  "item": "https://github.com/codepath/pathreview-ai301-fa26-s3/issues/14",
   "checks": [
     {
       "name": "maintainer-alive",
       "grade": "pass",
-      "evidence": "last commit on default branch within 14 days; active maintainer responses in issue tracker"
+      "evidence": "last commit on default branch within 90 days (recent repository activity)"
     },
     {
       "name": "repo-active",
       "grade": "pass",
-      "evidence": "repository active with regular commits and recent release"
+      "evidence": "repository active with regular commits and workflow updates"
     },
     {
       "name": "newcomer-scope",
       "grade": "pass",
-      "evidence": "bounded unit test task targeting src/utils/auth.py with clear scope"
+      "evidence": "bounded task implementing offline eval runner in scripts/run_evals.py and rag/evaluator/eval_suite.py"
     },
     {
       "name": "clean-assignment",
       "grade": "pass",
-      "evidence": "no active assignees or open linked PRs (Path Review classroom house rule applied)"
+      "evidence": "no active assignees or open linked PRs"
     },
     {
       "name": "policy-check",
@@ -149,7 +149,7 @@ Designing a first-issue selection rubric requires balancing strict risk mitigati
     {
       "name": "good-first-label",
       "grade": "pass",
-      "evidence": "issue carries 'good first issue' and 'unit-test' labels"
+      "evidence": "issue carries 'tier-3' label alongside domain tags"
     }
   ],
   "verdict": "accept"
